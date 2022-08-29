@@ -1,0 +1,61 @@
+{
+  "{vendor}-{uuApp}-{uuSubApp}": {
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "realization": "api/controllers/JokesMainController.init",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "sys/uuAppWorkspace/load": {
+        "realization": "api/controllers/JokesMainController.load",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "sys/uuAppWorkspace/loadBasicData": {
+        "realization": "api/controllers/JokesMainController.loadBasicData",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "defaultUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "realization": "index.html",
+        "httpMethod": "GET",
+        "type": "UVE"
+      },
+      "sayHello": {
+        "realization": "api/controllers/JokesMainController.sayHello",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "createJoke": {
+        "realization": "api/controllers/JokesMainController.createJoke",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "getJoke": {
+        "realization": "api/controllers/JokesMainController.getJoke",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "deleteJoke": {
+        "realization": "api/controllers/JokesMainController.deleteJoke",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "listJokes": {
+        "realization": "api/controllers/JokesMainController.listJokes",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "updateJoke": {
+        "realization": "api/controllers/JokesMainController.updateJoke",
+        "httpMethod": "POST",
+        "type": "CMD"
+      }
+    }
+  }
+}

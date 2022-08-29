@@ -1,0 +1,26 @@
+{
+  "schemaUri": "ues:SYSTEM:UU.OS/UUAPP-DEPLOY-SCHEMA-V2.3",
+  "data": {
+    "code": "UU.JOKES.MAING01",
+    "name": "uuJokesMaing01",
+    "version": "0.1.0",
+    "urlPath": "uu-jokes-maing01",
+    "multitenant": true,
+    "packs": [
+      {
+        "code": "UU.JOKES.MAING01/CMD-PACK",
+        "targetNodeSets": [
+          "UU.JOKES.MAING01/CMD-CONTAINER"
+        ]
+      }
+    ],
+    "nodeSets": [
+      {
+        "code": "UU.JOKES.MAING01/CMD-CONTAINER",
+        "nodeSize": "G1_S",
+        "runtimeStack": "UU.APPG01/APPSERVER_NODEJS_STACK-1.6",
+        "nodeCount": 1
+      }
+    ]
+  }
+}

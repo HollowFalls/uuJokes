@@ -1,0 +1,10 @@
+{
+  "port": 8080,
+  "uuSubAppDataStoreMap": {
+    "primary": "mongodb+srv://HollowFalls:NejakyHeslo@maincluster.knyzx.mongodb.net/?retryWrites=true&w=majority",
+    "binary": "mongodb+srv://HollowFalls:NejakyHeslo@maincluster.knyzx.mongodb.net/?retryWrites=true&w=majority"
+  },
+  "asid_license_owner_list": ["1704-8584-1"],
+  "asid": "11111111111111111111111111111111",
+  "log_level": "INFO"
+}
